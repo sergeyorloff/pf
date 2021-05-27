@@ -1,0 +1,141 @@
+/* ПЛАВНОЕ ПОЯВЛЕНИЕ СТРАНИЦЫ ----------------------------------------*/
+html {
+  background-color: #2C2C2C;
+}
+body {
+  -webkit-animation: fade-in 2.5s ease-in-out;
+  -moz-animation: fade-in 2.5s ease-in-out;
+  -ms-animation: fade-in 2.5s ease-in-out;
+  -o-animation: fade-in 2.5s ease-in-out;
+  animation: fade-in 2.5s ease-in-out;
+}
+body.fade-out {
+  -webkit-animation: fade-in 2.5s ease-in-out;
+  -moz-animation: fade-in 2.5s ease-in-out;
+  -ms-animation: fade-in 2.5s ease-in-out;
+  -o-animation: fade-in 2.5s ease-in-out;
+  animation: fade-in 2.5s ease-in-out;
+}
+/*--------------------------------------------------------------------*/
+.user-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+}
+
+.container-align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.style-intro {
+        font-family: "Caveat", sans-serif;
+    font-size: 14px;
+    font-size: 2.5rem;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.padding-top-12 {
+  padding-top: 12px
+}
+
+.padding-top-24 {
+  padding-top: 24px
+}
+
+.padding-top-36 {
+  padding-top: 36px
+}
+
+.padding-top-54 {
+  padding-top: 54px
+}
+
+.padding-top-72 {
+  padding-top: 72px
+}
+
+.padding-bottom-5 {
+  padding-bottom: 5px
+}
+
+.padding-vertical {
+  padding-top: 11px;
+  padding-bottom: 30px
+}
+
+.margin-horizontal-5 {
+  margin-left: 5%;
+  margin-right: 5%
+}
+
+.margin-horizontal-20 {
+  margin-left: 20%;
+  margin-right: 20%
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-justify {
+    text-align: justify;
+}
+
+.text-shadow-10-20 {
+  text-shadow: #242424 0 0 10px;
+  text-shadow: #242424 0 0 20px;
+}
+
+.style-title {
+    font-size: 2.2em !important;
+}
+
+.pattern-main {
+        background-image: url('../images/pattern-main.png');
+        background-repeat: repeat;
+        background-position: top left;
+        background-attachment: fixed;
+}
+
+.pattern-footer {
+        background-image: url('../images/pattern-footer.png');
+        background-repeat: repeat;
+        background-position: top left;
+        background-attachment: fixed;
+}
+
+.contact-info a:hover {
+    color: #C45E6C;
+}
+
+.subscribe-form input[type="submit"] {
+  background-image: url("../images/icon-feed-subscribe.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: inherit;
+        padding-left: 26px;
+        padding-right: 26px;
+}
+
+.subscribe-form input[type="submit"]:hover {
+    background-image: url("../images/icon-feed-subscribe-hover.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: inherit;
+        padding-left: 26px;
+        padding-right: 26px;
+}
+
+.subscribe-form input[type="submit"]:active {
+    background-image: url("../images/icon-feed-subscribe-active.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: inherit;
+        padding-left: 26px;
+        padding-right: 26px;
+}

@@ -1,0 +1,54 @@
+@font-face {
+	font-family: "Exo2-Regular";
+	src: local("Exo2-Regular"),
+	url("../fonts/exo2/Exo2-Regular.eot");
+	src: url("../fonts/exo2/Exo2-Regular.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/exo2/Exo2-Regular.woff") format("woff"),
+	url("../fonts/exo2/Exo2-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Exo2-Medium";
+	src: local("Exo2-Medium"),
+	url("../fonts/exo2/Exo2-Medium.eot");
+	src: url("../fonts/exo2/Exo2-Medium.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/exo2/Exo2-Medium.woff") format("woff"),
+	url("../fonts/exo2/Exo2-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Exo2-SemiBold";
+	src: local("Exo2-SemiBold"),
+	url("../fonts/exo2/Exo2-SemiBold.eot");
+	src: url("../fonts/exo2/Exo2-SemiBold.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/exo2/Exo2-SemiBold.woff") format("woff"),
+	url("../fonts/exo2/Exo2-SemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Exo2-Bold";
+	src: local("Exo2-Bold"),
+	url("../fonts/exo2/Exo2-Bold.eot");
+	src: url("../fonts/exo2/Exo2-Bold.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/exo2/Exo2-Bold.woff") format("woff"),
+	url("../fonts/exo2/Exo2-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Caveat";
+	src: local("Caveat"),
+	url("../fonts/caveat/Caveat.eot");
+	src: url("../fonts/caveat/Caveat.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/caveat/Caveat.woff") format("woff"),
+	url("../fonts/caveat/Caveat.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
